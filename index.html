@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>小説タイトル -章タイトル-</title>
+</head>
+<body>
+<h1>小説タイトル</h1>
+<h2>章タイトル</h2>
+<div id="novelStory">
+  小説本文 
+  <!-- /#novelStory -->
+</div>
+<form method="post" action="webclap.php">
+  感想:
+  <select name="impression">
+    <option value="面白かった" selected="selected">面白かった</option>
+    <option value="いまいち">いまいち</option>
+    <option value="続きを書いて">続きを書いて</option>
+  </select>
+  一言：
+  <input type="text" size="50" name="message" />
+  <input type="submit" value="拍手！" />
+</form>
+</body>
+</html>
